@@ -1,0 +1,20 @@
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+@media(max-width:500px)
+{
+    .box{
+    background-color: violet;
+    }  
+}
+
+@media(min-width:600px)
+{
+    .box{
+        background-color: aqua;
+    }
+}

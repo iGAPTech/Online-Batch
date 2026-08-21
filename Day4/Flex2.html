@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h2{
+            text-align: center;
+        }
+
+        .row{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .col{
+            border: 1px solid black;
+            margin:8px;
+            /* border-radius: 8px; */
+
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .card-body{
+            padding: 8px;
+        }
+
+        /* Media Query */
+
+        @media(max-width:600px)
+        {
+            .row{
+                flex-direction: column-reverse;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Services</h2>
+    <hr>
+
+    <div class="row">
+        <div class="col">
+            <img src="../assets/img/demo.png" alt="" width="100%">
+            <div class="card-body">
+                <h4>Card Title 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo dolor, blanditiis amet quaerat quos labore enim iusto. Distinctio corrupti praesentium neque accusamus quasi facere. Perspiciatis enim temporibus eveniet commodi.</p>
+            </div>
+        </div>
+
+        <div class="col">
+            <img src="../assets/img/demo.png" alt="" width="100%">
+            <div class="card-body">
+                <h4>Card Title 2</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo dolor, blanditiis amet quaerat quos labore enim iusto. Distinctio corrupti praesentium neque accusamus quasi facere. Perspiciatis enim temporibus eveniet commodi.</p>
+            </div>
+        </div>
+
+        <div class="col">
+            <img src="../assets/img/demo.png" alt="" width="100%">
+            <div class="card-body">
+                <h4>Card Title 3</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo dolor, blanditiis amet quaerat quos labore enim iusto. Distinctio corrupti praesentium neque accusamus quasi facere. Perspiciatis enim temporibus eveniet commodi.</p>
+            </div>
+        </div>
+
+        <div class="col">
+            <img src="../assets/img/demo.png" alt="" width="100%">
+            <div class="card-body">
+                <h4>Card Title 4</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo dolor, blanditiis amet quaerat quos labore enim iusto. Distinctio corrupti praesentium neque accusamus quasi facere. Perspiciatis enim temporibus eveniet commodi.</p>
+            </div>
+        </div>
+
+        <div class="col">
+            <img src="../assets/img/demo.png" alt="" width="100%">
+            <div class="card-body">
+                <h4>Card Title 5</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae nemo dolor, blanditiis amet quaerat quos labore enim iusto. Distinctio corrupti praesentium neque accusamus quasi facere. Perspiciatis enim temporibus eveniet commodi.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
