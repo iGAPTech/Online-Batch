@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container mt-4">
+            <button class="btn btn-primary" 
+            data-bs-toggle="collapse" data-bs-target="#demo" >Click Me</button>
+            <p id="demo" class="collapse">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero cupiditate nesciunt, ducimus quam odio praesentium magni consectetur repellat, iste ipsam quis impedit quia aspernatur cum minima repudiandae laborum sapiente blanditiis!
+            </p>
+
+
+            <hr>
+            <h1>.accordion</h1>
+
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a data-bs-toggle="collapse" href="#collapse1"  class="btn">
+                            Collapse Group Item 1
+                        </a>
+                    </div>
+                    <div id="collapse1" class="collapse show" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quidem minus mollitia ex architecto ipsum libero? Tenetur perspiciatis, ipsum harum sit officia vitae quae inventore minima odio ullam autem unde?
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a data-bs-toggle="collapse" href="#collapse2"  class="btn">
+                            Collapse Group Item 2
+                        </a>
+                    </div>
+                    <div id="collapse2" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quidem minus mollitia ex architecto ipsum libero? Tenetur perspiciatis, ipsum harum sit officia vitae quae inventore minima odio ullam autem unde?
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a data-bs-toggle="collapse" href="#collapse3"  class="btn">
+                            Collapse Group Item 3
+                        </a>
+                    </div>
+                    <div id="collapse3" class="collapse" data-bs-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quidem minus mollitia ex architecto ipsum libero? Tenetur perspiciatis, ipsum harum sit officia vitae quae inventore minima odio ullam autem unde?
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
